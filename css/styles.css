@@ -81,8 +81,8 @@ button {
   font-size: var(--font-size-medium);
   height: 65px;
   width: 65px;
-  padding: 20px 1px 0 1px;
-  margin-right: 2px;
+  padding: 20px 1px 0px 1px;
+  margin: 2px;
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
@@ -160,4 +160,73 @@ button {
 
 .lose a {
   color: var(--color-lose);
+}
+
+@media(max-width: 768px) {
+  .letter {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 14px 5px;
+  }
+  .header {
+    font-size: 2.3em;
+  }
+  button {
+    margin: 1px;
+  }
+}
+
+@media(max-width: 480px) {
+  .letter {
+    height: 40px;
+    width: 40px;
+    padding: 9px 3px;
+  }
+  button {
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media(max-width: 420px) {
+  .letter {
+    height: 37px;
+    width: 37px;
+    padding: 8px 2.5px;
+  }
+  button {
+    padding: 0.30rem 0.7rem;
+  }
+  .header {
+    font-size: 2em;;
+  }
+}
+
+@media(max-width: 385px) {
+  .letter {
+    height: 33px;
+    width: 33px;
+    padding: 5.5px 1px;
+  }
+  button {
+    padding: 0.25rem 0.65rem;
+  }
+}
+
+@media(max-width: 365px) {
+  button {
+    padding: 0.20rem 0.60rem;
+  }
+}
+
+@media(max-width: 365px) {
+  .letter {
+    height: 30px;
+    width: 30px;
+    padding: 3.8px 1px;
+  }
+  button {
+    padding: 0.15rem 0.55rem;
+  }
 }
